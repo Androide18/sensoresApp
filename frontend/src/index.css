@@ -1,0 +1,134 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*BACKGROUND GRADIENT*/
+  background: #4776E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8E54E9, #4776E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand {
+  padding: 1% 2%;
+}
+
+.blanco {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.blanco:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 80vh;
+  padding-top: 10%;
+  
+}
+
+.container-fluid {
+  padding: var(--bs-gutter-x, 8rem) !important;
+}
+
+.container {
+  margin-top: 5%;
+  color: whitesmoke;
+}
+
+.float-right {
+  float: right;
+  padding-right: 2%;
+  
+}
+
+.sensor-box{
+  color: whitesmoke;
+}
+
+
+.date {
+  color: #34eada;
+  font-size: 12px;
+}
+
+.grafico {
+  width: 60%;
+  margin: 0 10%;
+  background-color: whitesmoke;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  color: whitesmoke;
+  padding-bottom: 10px;
+}
+
+.btn-home-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.btn{
+  margin: 1px 10px;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.card-body {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: #0dcaf0;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+form{
+  color: whitesmoke;
+}
+
+
+.form {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.table{
+  color: whitesmoke !important;
+}
+
+.btn-success{
+  color: black !important;
+}
